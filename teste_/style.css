@@ -1,0 +1,146 @@
+/* Adicione este CSS ao seu arquivo style.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.envelope {
+    width: 200px;
+    height: 120px;
+    background-color: #e74c3c;
+    position: relative;
+    overflow: hidden;
+}
+
+.flap {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 60px solid #c0392b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.letter {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    left: 25px;
+    transition: transform 0.5s;
+    transform: translateY(0);
+}
+
+.envelope:hover .letter {
+    transform: translateY(-50px);
+}
+/* Adicione este CSS ao seu arquivo style.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.envelope {
+    width: 200px;
+    height: 120px;
+    background-color: #e74c3c;
+    position: relative;
+    overflow: hidden;
+}
+
+.flap {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 60px solid #c0392b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.letter {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    left: 25px;
+    transform-origin: bottom center;
+    transition: transform 0.5s;
+    transform: translateY(0);
+}
+
+.envelope:hover .letter {
+    transform: translateY(-100%);
+}
+/* Adicione este CSS ao seu arquivo style.css */
+
+/* Adicione este CSS ao seu arquivo style.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.envelope {
+    width: 200px;
+    height: 120px;
+    background-color: #e74c3c;
+    position: relative;
+    overflow: hidden;
+}
+
+.flap {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 60px solid #c0392b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.letter-container {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform-origin: top center;
+    transition: transform 0.5s;
+}
+
+.letter {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.envelope:hover .letter-container {
+    transform: translateY(-100%);
+}
